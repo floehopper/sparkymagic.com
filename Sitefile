@@ -1,3 +1,6 @@
+SITE.host = 'sparkymagic.com'
+SITE.user = 'jamesmead'
+SITE.remote_dir = '/var/apps/sparkymagic.com/'
 
 task :default => :build
 
