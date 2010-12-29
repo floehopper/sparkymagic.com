@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/floehopper/floehopper-deploy.git
-  revision: 2494ba89e2208c804cab30611fa8878f54a245e0
+  revision: c217075e265303f0b74e918977d0e6a71308aa37
   specs:
-    floehopper-deploy (0.1.1)
+    floehopper-deploy (0.1.2)
       freerange-deploy
       freerange-puppet
 
@@ -65,7 +65,7 @@ GEM
     net-ssh-gateway (1.0.1)
       net-ssh (>= 1.99.1)
     rake (0.8.7)
-    request-log-analyzer (1.9.8)
+    request-log-analyzer (1.9.9)
     right_aws (2.0.0)
       right_http_connection (>= 1.2.1)
     right_http_connection (1.2.4)
