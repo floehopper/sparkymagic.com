@@ -5,6 +5,6 @@ SITE.remote_dir = '/var/apps/sparkymagic.com/'
 task :default => :build
 
 desc 'deploy the site to the webserver'
-task :deploy => [:build, 'deploy:rsync']
+task :deploy => ['clobber', 'build', 'deploy:rsync']
 
 # EOF
