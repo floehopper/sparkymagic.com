@@ -30,6 +30,7 @@ GIT
 GEM
   remote: http://rubygems.org/
   specs:
+    RedCloth (4.2.7)
     activesupport (3.0.3)
     capistrano (2.5.19)
       highline
@@ -101,6 +102,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  RedCloth
   floehopper-deploy!
   freerange-deploy!
   freerange-puppet!
